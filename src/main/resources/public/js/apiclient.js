@@ -3,7 +3,7 @@ var apiclient = (function(){
     return {
         calcular: function(valores, callback) {
             var promise = $.post({
-        		url: "/calculator",
+        		url: "/calculadora",
         		data: JSON.stringify(valores),
         		contentType: "application/json"
             });

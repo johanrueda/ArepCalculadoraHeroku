@@ -11,8 +11,8 @@ var app = (function () {
     alert("Verifique los datos ingresados");
     return;
   }
-    $("#mean").text(numeros.media);
-    $("#dev").text(numeros.desviacion);
+    $("#media").text(numeros.media);
+    $("#desviacion").text(numeros.desviacion);
   }
 
   return {

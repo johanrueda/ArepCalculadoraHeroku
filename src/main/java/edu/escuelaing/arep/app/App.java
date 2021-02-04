@@ -29,7 +29,7 @@ public class App
 
             calculadora cal = new calculadora(list);
 
-            return "{\"mean\":" + cal.media() + ", \"dev\":" + cal.desviacion() + "}";
+            return "{\"media\":" + cal.media() + ", \"desviacion\":" + cal.desviacion() + "}";
 
         });
     }
